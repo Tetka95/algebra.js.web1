@@ -1,11 +1,11 @@
 //var firstName = "Marko"; (određena vrijednost varijable firstName kao "Marko")
-var firstName, lastName, price, discount, fullPrice;
+//var firstName, lastName, price, discount, fullPrice; ovako se uglavnom ne piše nego onako kako je napisano u nastavku
 
-firstName = "John";
-lastName = "Doe"
+var firstName = "John";
+var lastName = "Doe"
 
-price = 19.9;
-discount = 0.1;
+var price = 19.9;
+var discount = 0.1;
 
 if (x == 1)
 x = 2
