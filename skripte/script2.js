@@ -8,14 +8,24 @@ price = 19.9;
 discount = 0.1;
 
 var x = 1;
+var isSet = false;
+
 if (x == 1) {
-    x = 2;
-    console.log("x= " + x); 
+    isSet = true;
+} else {
+    isSet = false;
 }
 
+if (isSet) {
+    x = 2;
+    console.log("x=" + x);
+}
+
+//var a = 5;
+console.log("a=" + a);
 if (a) {
     var z = 44
-        return 0;
+    console.log("z=" + z);
     }
 
 fullPrice = price * 100 / discount;
