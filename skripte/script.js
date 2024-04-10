@@ -1,2 +1,2 @@
-var divVar = document.getElementsByTagName("div").length;
-console.log( "Ima div elemenata: " + divVar);
+var divVar = document.getElementsByTagName("div")[0];
+console.log(divVar.firstElementChild);
