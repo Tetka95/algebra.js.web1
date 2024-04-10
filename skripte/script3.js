@@ -7,8 +7,7 @@ y = 2;
 if (x > 0 && y > 0) {
     zbroj = x + y;
     console.log("Zbroj=" + zbroj);
-}
-else {
+} else {
     alert("Unio si negativne vrijednosti!")
 }
 
