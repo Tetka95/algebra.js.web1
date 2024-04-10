@@ -20,8 +20,6 @@ if (x > 0) {
     }
 } else {
     alert("Unio si negativan x");
-} else {
-    alert("Oba su negativna");
 }
 
 //očekujemo zbroj
