@@ -1,1 +1,2 @@
-var divVar = document.getElementsByTagName("div")[0];
+var divVar = document.getElementsByTagName("div").length;
+console.log(divVar);
