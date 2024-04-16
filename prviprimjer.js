@@ -10,3 +10,4 @@ if (x == true) {
     console.log("abcd");
 }
 //izvršit će se oba jer su u istoj zagradi
+//ako napišemo samo (x) onda je x određen kao var x = "bilo koja vrijednost", dodavanjem == određujemo mu vrijednost
