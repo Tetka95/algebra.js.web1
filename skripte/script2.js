@@ -21,7 +21,7 @@ if (isSet) {
     console.log("x=" + x);
 }
 
-//var a = 5;
+var a = 5;
 console.log("a=" + a);
 if (a) {
     var z = 44
@@ -29,3 +29,4 @@ if (a) {
     }
 
 fullPrice = price * 100 / discount;
+console.log(fullPrice);
