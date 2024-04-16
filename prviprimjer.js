@@ -5,7 +5,7 @@ if (x)
     //izvršit će se samo drugi console.log jer nemamo zagrade
 
 var x = true;
-if (x) {
+if (x == true) {
     console.log("adsf");
     console.log("abcd");
 }
