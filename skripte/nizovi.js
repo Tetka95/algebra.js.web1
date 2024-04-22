@@ -38,11 +38,10 @@ for (i = 0; i<arr.length; i++) {
 console.log('Ime sa najmanje znakova sadrži ' + minDuljina + ' znaka.');
 console.log(kratkoIme);
 
-/*for(x = 0; x < arr.length; x++) {
+for(x = 0; x < arr.length; x++) {
     if (arr[x].length === minDuljina) {
         console.log(arr[x]);
         break;
     }
 }
-nije efikasno
-*/
+//nije efikasno
