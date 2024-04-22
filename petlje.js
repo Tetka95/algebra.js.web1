@@ -1,6 +1,7 @@
 var x = 0
 while (x < 20) {
     x++;
+
     if (x <= 3) {
         continue;
     }
