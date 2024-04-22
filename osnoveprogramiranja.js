@@ -17,3 +17,14 @@ if (z === 2) {
     x = 5;
 }
 console.log('x = ' + x);
+
+//3. zadatak
+var x = 1
+
+for (x = 1; x < 20; x++) {
+    if (x % 2 == 0) {
+        console.log('Broj ' + x + ' je paran');
+    } /*else (
+        console.log('Broj ' + x + ' je neparan')
+    ) ako želimo ispis neparnih brojeva*/
+}
