@@ -13,7 +13,7 @@ if (x === true) {
 if (x) {
     console.log('varijable su identične');
 } else if('moje ime' !== 'moje_ime') {
-    console.log('varijable NISU identična')
+    console.log('varijable NISU identične')
 } else {
     console.log('niti jedan uvijet nije ispunjen')
 }
