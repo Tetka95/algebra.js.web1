@@ -1,4 +1,4 @@
-var tableBegin = '<table><tbody>';
+var tableBegin = '<table><thead><tr><th>IME</th><th>PREZIME</th></tr></thead><tbody>';
 var tableEnd = '</tbody></table>';
 
 var rowBegin = '<tr>';
