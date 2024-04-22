@@ -8,3 +8,12 @@ if (x === true) {
 } else {
     console.log('varijable NISU identične');
 }
+
+
+if (x) {
+    console.log('varijable su identične');
+} else if('moje ime' !== 'moje_ime') {
+    console.log('varijable NISU identična')
+} else {
+    console.log('niti jedan uvijet nije ispunjen')
+}
