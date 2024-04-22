@@ -15,7 +15,7 @@ console.log(num);
 const price = 26.5;
 const taxRate = 0.082;
 
-let totalPrice = price + price * taxRate
+let totalPrice = price + price * taxRate;
 totalPrice = totalPrice.toFixed(2);
 
 console.log('Total:', totalPrice);
