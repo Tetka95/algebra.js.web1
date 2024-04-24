@@ -70,3 +70,15 @@ do {
 while (i < prazanNiz.length) {
     console.log('3. element na poziciji ['+ i + '] = ' + prazanNiz[i]);
 }
+
+var brojcaniNiz = [1, 2, 3, 4, 5, 6, 7];
+//zbroji sve članove niza
+
+//var suma = brojcaniNiz [0] + brojcaniNiz [1] + brojcaniNiz [2] + brojcaniNiz [3]; // ...
+
+var suma = 0;
+for(var x = 0; x < brojcaniNiz.length; x++) {
+    suma = suma += brojcaniNiz[x];
+}
+
+console.log('suma = ' + suma);
