@@ -87,6 +87,10 @@ var weirdBrojčaniNiz = [1, 2, , 3, 4, 5, 6, 7];
 var sumaW = 0;
 
 for(var x = 0; x < weirdBrojčaniNiz.length; x++) {
+    /*if(typeof weirdBrojčaniNiz[x] !== typeof number) {
+        continue;
+    } --> nije radilo*/
+
     if(weirdBrojčaniNiz[x] === undefined) {
         continue;
     }
