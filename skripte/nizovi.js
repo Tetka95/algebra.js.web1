@@ -98,3 +98,15 @@ for(var x = 0; x < weirdBrojčaniNiz.length; x++) {
 }
 
 console.log('sumaW = ' + sumaW);
+
+var matrix = [
+    [1, 2, 3], 
+    ['John', 'Jane', 'Mike'],
+];
+
+for (var i = 0; i < matrix.length; i++) {
+    //console.log(matrix[i].join());
+    for (var j = 0; j < matrix[i].length; j++) {
+        console.log('matrix[' + i + '][' + j + '] = ' + matrix[i][j]);
+    }
+}
