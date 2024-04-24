@@ -110,3 +110,11 @@ for (var i = 0; i < matrix.length; i++) {
         console.log('matrix[' + i + '][' + j + '] = ' + matrix[i][j]);
     }
 }
+
+var myNames = ['John', 'Jane',, 'Mike'];
+var y = 1;
+
+for (var myName of myNames) {
+    console.log(y + '. ' + myName);
+    y++;
+}
