@@ -82,3 +82,15 @@ for(var x = 0; x < brojcaniNiz.length; x++) {
 }
 
 console.log('suma = ' + suma);
+
+var weirdBrojčaniNiz = [1, 2, , 3, 4, 5, 6, 7];
+var sumaW = 0;
+
+for(var x = 0; x < weirdBrojčaniNiz.length; x++) {
+    if(weirdBrojčaniNiz[x] === undefined) {
+        continue;
+    }
+    sumaW += weirdBrojčaniNiz[x];
+}
+
+console.log('sumaW = ' + sumaW);
