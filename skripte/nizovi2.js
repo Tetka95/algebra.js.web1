@@ -4,7 +4,7 @@ var y= 1;
 
 //1. zadatak 
 for(var list of names) {
-    console.log([x] + '.' + list);
+    console.log([x] + '. ' + list);
     x++;
 }
 
@@ -12,7 +12,7 @@ for(var list of names) {
 names.push('Martina');
 
 for(var list of names) {
-    console.log([y] + '.' + list);
+    console.log([y] + '. ' + list);
     y++;
 }
 
@@ -46,3 +46,24 @@ for (var abcNames of names.sort()) {
     }
     console.log(abcNames);
 }
+
+//7. zadtaak
+var elementi = ['ime', 'prezime', 'godine'];
+var ispis = '';
+
+for (var element of elementi) {
+    ispis += element + ',';
+}
+console.log(ispis);
+
+ispis = '';
+for (var i = 0; i < elementi.length; i++) {
+    if (i == elementi.length - 1) {
+        ispis +=elementi[i];
+    } else {
+        ispis += elementi[i] + ',';
+    }
+}
+
+console.log(ispis);
+console.log(elementi.join('+')); 
