@@ -45,3 +45,28 @@ for(x = 0; x < arr.length; x++) {
     }
 }
 //nije efikasno
+
+var name1 = 'John',
+    name2 = 'Jane',
+    name3 = 'Mike';
+
+var prazanNiz = [];
+var niz = ['John', 'Jane', 'Mike'];
+
+console.log(niz);
+console.log(typeof(niz));
+
+for (i = 0; i<prazanNiz.length; i++) {
+    console.log('1. element na poziciji ['+ i + '] = ' + prazanNiz[i]);
+}
+console.log('1.1. element na poziciji [5] = ' + prazanNiz[5]);
+
+var i = 0;
+do {
+    console.log('2. element na poziciji ['+ i + '] = ' + prazanNiz[i]);
+    i++;
+} while (i<prazanNiz.length);
+
+while (i < prazanNiz.length) {
+    console.log('3. element na poziciji ['+ i + '] = ' + prazanNiz[i]);
+}
