@@ -48,3 +48,24 @@ function getMax(a, b) {
 
 console.log('veći broj je: ' + getMax('string', 2));
 console.log('veći broj je: ' + getMax(5, 2));
+
+//4. 
+function zbroji(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        return 'error';
+    }
+    return a + b;
+}
+
+console.log('a + b = ' + zbroji(2, 3));
+console.log('a + b = ' + zbroji('string', 4));
+
+var prvi = zbroji(3, 3);
+var drugi = zbroji(5, 5)
+if (prvi !== 'error' && drugi !== 'error') {
+    var dvaPutaSuma = prvi * drugi;
+    console.log(dvaPutaSuma);
+} else {
+    console.log('nije moguće izračunati');
+}
+
