@@ -31,7 +31,7 @@ function pronadjiNajduzuRijec(niz) {
 var najduzaRijec = pronadjiNajduzuRijec(nekiNiz);
 console.log(najduzaRijec);
 
-//3. BIT ĆE U ISPITU
+//3. VAŽNO!!! ;)
 function getMax(a, b) {
     let retVal = 0;
     if(a > b) {
