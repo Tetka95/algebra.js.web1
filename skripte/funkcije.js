@@ -69,3 +69,11 @@ if (prvi !== 'error' && drugi !== 'error') {
     console.log('nije moguće izračunati');
 }
 
+function pomnozi(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        console.log('nije moguće izvršiti');
+    }
+    return a * b;
+}
+
+console.log('a * b = ' + pomnozi(4,5));
