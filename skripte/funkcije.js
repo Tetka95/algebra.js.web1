@@ -77,3 +77,13 @@ function pomnozi(a, b) {
 }
 
 console.log('a * b = ' + pomnozi(4,5));
+
+function podijeli(a, b) {
+    if (a == 0 || b == 0) {
+        console.log('dijeljenje s 0 nije definirano');
+        return 'error';
+    }
+    return a / b;
+}
+
+console.log('a / b = ' + podijeli(2, 0)); 
