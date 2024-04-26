@@ -30,3 +30,21 @@ function pronadjiNajduzuRijec(niz) {
 
 var najduzaRijec = pronadjiNajduzuRijec(nekiNiz);
 console.log(najduzaRijec);
+
+//3. BIT ĆE U ISPITU
+function getMax(a, b) {
+    let retVal = 0;
+    if(a > b) {
+        retVal = a
+    } else if (b > a) {
+        retVal = b
+    } else if (a === b) {
+        retVal = a;
+    } else {
+        retVal = 'error'
+    }
+    return retVal;
+}
+
+console.log('veći broj je: ' + getMax('string', 2));
+console.log('veći broj je: ' + getMax(5, 2));
